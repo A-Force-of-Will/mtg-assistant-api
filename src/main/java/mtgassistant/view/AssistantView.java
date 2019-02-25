@@ -1,5 +1,5 @@
 package mtgassistant.view;
 
-public class AssistantView {
+public interface AssistantView {
 
 }
