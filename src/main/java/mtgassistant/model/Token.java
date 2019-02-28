@@ -13,8 +13,6 @@ public class Token {
 	
 	private int amount;
 	
-//	private Keywords keyWords;
-	
 	private int power;
 	
 	private int toughness;
