@@ -2,17 +2,9 @@ package mtgassistant.model;
 
 public class Card {
 	
-//	private int colorless;
-//	
-//	private int red;
-//	
-//	private int blue;
-//	
-//	private int green;
-//	
-//	private int white;
-//	
-//	private int black;
+	public enum color {
+		White, Black, Green, Red, Blue, Colorless
+	}
 	
 	private String name;
 	
