@@ -2,6 +2,11 @@ package mtgassistant.model;
 
 public class Token {
 	
+	public enum keyword {
+		Lifelink, Infect, FirstStrike, DoubleStrike, Trample,
+		Flying, Reach, Deathtouch, Vigilance, Menace
+	}
+	
 	private String name;
 	
 	private Color color;
