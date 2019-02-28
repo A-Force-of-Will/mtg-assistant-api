@@ -2,10 +2,6 @@ package mtgassistant.model;
 
 public class Card {
 	
-	public enum color {
-		White, Black, Green, Red, Blue, Colorless
-	}
-	
 	private String name;
 	
 	private int totalCMC;
