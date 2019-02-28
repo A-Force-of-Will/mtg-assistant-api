@@ -1,6 +1,8 @@
 package mtgassistant.model;
 
-public class Deck {
+import java.util.ArrayList;
+
+public class Deck extends ArrayList<Card>{
 	
 	private String name;
 
