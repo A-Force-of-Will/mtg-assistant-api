@@ -4,7 +4,7 @@ public class Token {
 	
 	public enum keyword {
 		Lifelink, Infect, FirstStrike, DoubleStrike, Trample,
-		Flying, Reach, Deathtouch, Vigilance, Menace
+		Flying, Reach, Deathtouch, Vigilance, Menace, Indestructible
 	}
 	
 	private String name;

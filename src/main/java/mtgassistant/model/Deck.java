@@ -14,4 +14,8 @@ public class Deck extends ArrayList<Card>{
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+//	public void addCardToDeck(Card card) {
+//	
+//	}
 }
