@@ -2,18 +2,6 @@ package mtgassistant.model;
 
 public class Card {
 	
-//	private int colorless;
-//	
-//	private int red;
-//	
-//	private int blue;
-//	
-//	private int green;
-//	
-//	private int white;
-//	
-//	private int black;
-	
 	private String name;
 	
 	private int totalCMC;

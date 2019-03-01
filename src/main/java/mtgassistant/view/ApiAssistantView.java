@@ -1,10 +1,8 @@
 package mtgassistant.view;
 
-import javafx.stage.Stage;
+import mtgassistant.controller.AssistantController;
 
 public interface ApiAssistantView {
-	
-	Stage stage();
 	
 	public void init();
 	
@@ -15,5 +13,7 @@ public interface ApiAssistantView {
 	public void drawTokens();
 
 	public void drawCounters();
+
+	public void registerController(AssistantController ac);
 	
 }

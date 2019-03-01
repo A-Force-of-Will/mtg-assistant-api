@@ -9,14 +9,17 @@ import mtgassistant.view.ApiAssistantView;
 
 public class AssistantController {
 	
+	private ApiAssistantView view;
+	
 	public AssistantController() {}
 	
 	public AssistantController(ApiAssistantView view) {
-		
+		this.view = view;
+		this.view.registerController(this);
 	}
 	
 	public void run() {
-		
+		this.view.init();
 	}
 	
 	public void addCounter() {
