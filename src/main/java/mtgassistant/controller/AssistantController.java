@@ -1,5 +1,6 @@
 package mtgassistant.controller;
 
+import javafx.scene.control.TextField;
 import mtgassistant.model.Card;
 import mtgassistant.model.Counter;
 import mtgassistant.model.Deck;
@@ -80,5 +81,11 @@ public class AssistantController {
 	
 	public void deleteToken(Token token) {
 		
+	}
+
+	public int onLifeUpdateRequested(TextField life, int result) {
+		String l = life.toString();
+		int hp = Integer.parseInt(l);
+		 return hp += result;
 	}
 }
